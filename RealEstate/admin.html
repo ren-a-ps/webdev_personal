@@ -1,0 +1,238 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>S&P Investments</title>
+    <link rel="icon" type="image/x-icon" href="rss/favicon.ico">
+    <!-- CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+
+  <body>
+  <!-- Navigation Bar --> 
+  	<header>
+  		<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+			  <div class="container">
+			    <a class="navbar-brand" href="index.html#home">
+			    	<img src="rss\S&P Investments.png" alt="Company Logo">
+			    	<!-- <span class="text-warning">Build</span>Con</a> -->
+			  	</a>
+			  	
+			  	<!-- For the hamburger menu -->
+			    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+			      <span class="navbar-toggler-icon"></span>
+			    </button>
+
+			    <!-- Links that will collapse-->
+			    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+			      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+			        <li class="nav-item">
+			          <a class="nav-link" href="index.html#home">Home</a>
+			        </li>
+			        <li class="nav-item">
+			          <a class="nav-link" href="index.html#about">About</a>
+			        </li>
+			        <li class="nav-item">
+			          <a class="nav-link" href="index.html#listings">Listings</a>
+			        </li>
+			        <li class="nav-item">
+			          <a class="nav-link" href="index.html#contact">Contact</a>
+			        </li>
+			        <li class="nav-item">
+			          <a class="nav-link" href="#login">Admin</a>
+			        </li>
+			      </ul>
+			    </div>
+			  </div>
+			</nav>
+  	</header>
+  <!-- Navigation Bar --> 
+
+	<!-- Login - Register -->
+		<section class="login section-padding">
+			<div class="container">
+				<div class="row d-flex justify-content-around align-items-center">
+					<div class="col-md-7 col-lg-5 col-xl-5">
+
+						<ul class="nav nav-pills mb-4 nav-justified" id="pills-tab" role="tablist">
+						  <li class="nav-item" role="presentation">
+						    <button class="nav-link active" id="pills-login-tab" data-bs-toggle="pill" data-bs-target="#pills-login" type="button" role="tab" aria-controls="pills-login" aria-selected="true">Login</button>
+						  </li>
+						  <li class="nav-item" role="presentation">
+						    <button class="nav-link" id="pills-register-tab" data-bs-toggle="pill" data-bs-target="#pills-register" type="button" role="tab" aria-controls="pills-register" aria-selected="false">Register</button>
+						  </li>
+						</ul>
+
+						<!-- Login Tab/Pill-->
+						<div class="tab-content" id="pills-tabContent">
+						  <div class="tab-pane fade show active" id="pills-login" role="tabpanel" aria-labelledby="pills-home-tab">
+						  	<!-- Login -->
+						  	<form id="formLogin" class="mb-3">
+							  	<div class="form-floating mb-3">
+									  <input type="email" class="form-control" id="loginInputPassword" placeholder="name@example.com">
+									  <label for="loginInputPassword">Email address*</label>
+									  <div class="text-danger ps-2"></div> <!-- For form validation, add class 'form-helper' using JS -->
+									</div>
+				          <div class="form-floating mb-3">
+									  <input type="password" class="form-control" id="loginInputPassword" placeholder="Password">
+									  <label for="loginInputPassword">Password*</label>
+									  <div class="text-danger ps-2"></div> <!-- For form validation, add class 'form-helper' using JS -->
+									</div>
+				          <div class="d-flex justify-content-around align-items-center mb-3">
+				            <div class="form-check">
+				              <input class="form-check-input" type="checkbox" value="" id="rememberMe" checked="checked">
+				              <label class="form-check-label" for="rememberMe"> Remember me </label>
+				            </div>
+				          </div>
+
+									<div class="d-flex">
+										<button type="button" class="btn btn-warning btn-lg btn-block rounded-pill flex-grow-1">Login</button>
+									</div>
+						  	</form>
+						  	<!-- Login -->
+
+						  	<!-- Forgot Password Modal-->
+						  	<div class="d-flex justify-content-around align-items-center mb-3">
+						  		<a href="#forgotPassword" data-bs-toggle="modal">Forgot password?</a>
+				           <div class="modal fade" id="forgotPassword" tabindex="-1" aria-labelledby="forgotPasswordHeader" aria-hidden="true">
+									  <div class="modal-dialog">
+									    <div class="modal-content">
+										     <div class="modal-header">
+										       <h5 class="modal-title" id="forgotPasswordHeader">Forgot Password?</h5>
+										       <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+									      </div>
+									      <div class="modal-body">
+									        <form id="formForgotPassword">
+														<div class="form-floating mb-3">
+														  <input type="text" class="form-control" id="fpInputAdminCode" placeholder="Admincode">
+														  <label for="fpInputAdminCode">Admin Code*</label>
+														  <div class="form-helper ps-2">This is given by the officials of S&P Investments.</div>
+														</div>									        	
+												  	<div class="form-floating mb-3">
+														  <input type="email" class="form-control" id="fpInputPassword" placeholder="name@example.com">
+														  <label for="fpInputPassword">Email address*</label>
+														  <div class="text-danger ps-2"></div> <!-- For form validation, add class 'form-helper' using JS -->
+														</div>
+									          <div class="form-floating mb-3">
+														  <input type="password" class="form-control" id="fpInputPassword" placeholder="Password">
+														  <label for="fpInputPassword">Password*</label>
+														  <div class="text-danger ps-2"></div> <!-- For form validation, add class 'form-helper' using JS -->
+														</div>
+									          <div class="form-floating mb-3">
+														  <input type="password" class="form-control" id="fpReInputPassword" placeholder="Repeat Password">
+														  <label for="fpReInputPassword">Repeat Password*</label>
+														  <div class="text-danger ps-2"></div> <!-- For form validation, add class 'form-helper' using JS -->
+														</div>
+														<div class="d-flex">
+															<button type="button" class="btn btn-warning btn-lg btn-block rounded-pill flex-grow-1">Submit</button>
+														</div>									        	
+									        </form>
+									      </div>
+									      <div class="modal-footer">
+									        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+									      </div>
+									    </div>
+									  </div>
+									</div>
+				        </div>
+				        <!-- Forgot Password Modal-->
+						  </div>
+						  <!-- Login Tab/Pill-->
+						  
+						  <!-- Register Tab/ Pill -->
+						  <div class="tab-pane fade" id="pills-register" role="tabpanel" aria-labelledby="pills-profile-tab">
+						  	<form id="formRegister" class="row g-2">
+						  		<div class="form-floating mb-3 col-md-6">
+									  <input type="text" class="form-control" id="regInputFirstname" placeholder="Firstname">
+									  <label for="regInputFirstname">Firstname*</label>
+									</div>
+									<div class="form-floating mb-3 col-md-6">
+									  <input type="text" class="form-control" id="regInputLastname" placeholder="Lastname">
+									  <label for="regInputLastname">Lastname*</label>
+									</div>
+									<div class="form-floating mb-3">
+									  <input type="text" class="form-control" id="regInputAdminCode" placeholder="Admincode">
+									  <label for="regInputAdminCode">Admin Code*</label>
+									  <div class="form-helper ps-2">This is given by the officials of S&P Investments.</div>
+									</div>
+									<div class="form-floating mb-3">
+									  <input type="email" class="form-control" id="regInputEmail" placeholder="name@example.com">
+									  <label for="regInputEmail">Email address*</label>
+									  <div class="text-danger ps-2"></div> <!-- For form validation, add class 'form-helper' using JS -->
+									</div>
+				          <div class="form-floating mb-3">
+									  <input type="password" class="form-control" id="regInputPassword" placeholder="Password">
+									  <label for="regInputPassword">Password*</label>
+									</div>
+				          <div class="form-floating mb-3">
+									  <input type="password" class="form-control" id="regReInputPassword" placeholder="Repeat Password">
+									  <label for="regReInputPassword">Repeat Password*</label>
+									  <div class="text-danger ps-2"></div> <!-- For form validation, add class 'form-helper' using JS -->
+									</div>									
+				          <div class="d-flex justify-content-around align-items-center mb-3">
+				            <div class="form-check">
+				              <input class="form-check-input" type="checkbox" value="" id="terms" checked="checked">
+				              <label class="form-check-label" for="terms"> I have read and agree to the terms </label>
+				            </div>
+				          </div>
+
+									<div class="d-flex">
+										<button type="button" class="btn btn-warning btn-lg btn-block rounded-pill flex-grow-1">Register</button>
+									</div>
+						  	</form>
+						  </div>
+						  <!-- Register Tab/ Pill -->
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- Login - Register -->
+
+
+	<!-- Footer -->
+		<footer class="text-center bg-white text-muted">
+			<div class="container">
+				<!-- Section: Social media -->
+			  <div class="d-flex justify-content-center justify-content-md-between p-4 border-bottom">
+			    <!-- Left -->
+			    <div class="me-5 d-none d-md-block">
+			      <span>Get connected with us on social networks:</span>
+			    </div>
+			    <!-- Left -->
+
+			    <!-- Right -->
+			    <div>
+			      <a href="https://www.facebook.com/snpinvests" target="_blank" class="me-4 link-secondary text-decoration-none">
+			        <i class="fa-brands fa-facebook-f"></i>
+			      </a>
+			      <a href="https://www.facebook.com/snpinvests" target="_blank" class="me-4 link-secondary text-decoration-none">
+			        <i class="fa-brands fa-twitter"></i>
+			      </a>
+			      <a href="https://www.facebook.com/snpinvests" target="_blank" class="me-4 link-secondary text-decoration-none">
+			        <i class="fa-brands fa-tiktok"></i>
+			      </a>
+			    </div>
+			    <!-- Right -->
+			  </div>
+		  <!-- Section: Social media -->
+			</div>
+
+		  <!-- Copyright -->
+		  <div class="copyright text-center p-4">
+		    © 2023 Copyright:
+		    <span class="fw-bold">S&P Investments</span>
+		  </div>
+		  <!-- Copyright -->
+		</footer>
+	<!-- Footer -->
+
+	<!-- JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
