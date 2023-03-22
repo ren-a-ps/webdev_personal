@@ -4,6 +4,9 @@
 
 body{
 	background: #f1fbff;
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
 }
 
 .section-padding{
@@ -126,13 +129,18 @@ body{
   color: #000;
 }
 
+.form-helper{
+	font-size: 11px;
+}
+
 footer .copyright{
 	background-color: rgba(0, 0, 0, 0.2);
 }
 
-.form-helper{
-	font-size: 11px;
+footer{
+	margin-top: auto;
 }
+
 /* === Responsive CSS === */
 @media only screen and (min-width:576px) and (max-width: 992px){
 	.navbar-nav{
