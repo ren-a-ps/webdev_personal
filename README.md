@@ -1,2 +1,2 @@
 # webdev_personal
-Personal portfolio for web development projects
+Personal github portfolio for web development projects
