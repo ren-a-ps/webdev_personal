@@ -1,4 +1,4 @@
-![I am a developer and also a trader.](github banner.png)
+![I am a developer and also a trader.](https://github.com/ren-a-ps/webdev_personal/blob/main/github%20banner.png)
 
 # Ren Salandanan
 I'm an experienced software developer. Now getting started with web development, which I really enjoy. I'm also a cryptocurrency trader. 
