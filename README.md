@@ -8,7 +8,7 @@ I'm an experienced software developer. Now getting started with web development,
 * :elephant: PHP / SQL  
 * :desktop_computer: JS / HTML / CSS
 
-## Latest project:
+## Latest Projects
 
 * [Login System](https://renaps-ls.000webhostapp.com/index.php)
 
