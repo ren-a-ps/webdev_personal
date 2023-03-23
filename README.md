@@ -5,7 +5,7 @@ I'm an experienced software developer. Now getting started with web development,
 
 ## Skills
 * :snake: PHYTON 
-* :elephant: SQL / PHP  
+* :elephant: PHP / SQL  
 * :desktop_computer: JS / HTML / CSS
 
 ## Latest project:
