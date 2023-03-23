@@ -1,6 +1,6 @@
 ### Hi there 👋, my name is Ren.
 #### I am a developer and also a trader.
-![I am a developer and also a trader.](https://arturssmirnovs.github.io/github-profile-readme-generator/images/banner.png)
+![I am a developer and also a trader.](https://github.com/ren-a-ps/webdev_personal/blob/main/github%20banner.png)
 
 I'm an experienced software developer. Now getting started with web development, which I really enjoy. I'm also a cryptocurrency trader. 
 
