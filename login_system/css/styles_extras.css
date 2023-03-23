@@ -1,0 +1,23 @@
+h1 {
+	margin: 0px;
+}
+
+#firstname {
+	margin-top: 0px;
+}
+
+.login_page {
+	margin: 0px;
+}
+
+.form_text {
+	margin: 12px 0 0 0;
+}
+
+#showPassword {
+	top: 256px;
+}
+
+#hidePassword {
+	top: 256px;
+}
