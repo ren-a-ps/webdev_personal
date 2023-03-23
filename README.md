@@ -4,9 +4,9 @@
 I'm an experienced software developer. Now getting started with web development, which I really enjoy. I'm also a cryptocurrency trader. 
 
 ## Skills
-* :snake: PHYTON 
-* :elephant: PHP / SQL  
-* :desktop_computer: JS / HTML / CSS
+* 🐍 PHYTON 
+* 🐘 PHP / SQL  
+* 🖥️ JS / HTML / CSS
 
 ## Latest Projects
 
