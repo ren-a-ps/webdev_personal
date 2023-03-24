@@ -3,8 +3,8 @@ This is my repository for web development. My most recent web development projec
 
 
 ## Skills Used So Far
+* 🖥️ HTML / CSS / JS
 * 🐘 PHP / SQL  
-* 🖥️ JS / HTML / CSS
 
 
 ## Projects
@@ -22,7 +22,7 @@ Skills:
 JS (JQuery) / HTML / CSS / PHP / SQL 
 
 Description: 
-This project focuses more on the key features and security of the login system. The key features are listed below, and these features are done on the server side to increase security. AJAX is used to communicate with the database.
+This project focuses more on the key features and security of the login system. The key features are listed below, and these features are done on the server side to increase security. AJAX is used to communicate with the database. This project is also mobile friendly.
 
 Key Features:
 * Credentials checking 
@@ -42,7 +42,7 @@ Skills:
 HTML / CSS (Bootstrap 5) / JS (JQuery) 
 
 Description: 
-This project focuses more on the layout or the appearance of the website. This is achieve by using Bootstrap 5. Fixed some minor issue on Bootstrap 5 using JQuery. 
+This project focuses more on the layout or the appearance of the website. This is achieve by using Bootstrap 5. Fixed some minor issue on Bootstrap 5 using JQuery. This project is also mobile friendly.
 
 ## Socials
 
