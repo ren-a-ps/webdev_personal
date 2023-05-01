@@ -13,6 +13,8 @@ This is my repository for web development. My most recent web development projec
 
 * [Real Estate Website](https://ren-a-ps.github.io/webdev_personal/RealEstate/index.html)
 
+* [To-do List](https://ren-a-ps.github.io/webdev_personal/todo_list/)
+
 
 ## Login System
 Please see [Login System](https://renaps-ls.000webhostapp.com/index.php).
@@ -22,7 +24,7 @@ Skills:
 JS (JQuery) / HTML / CSS / PHP / SQL 
 
 Description: 
-This project focuses more on the key features and security of the login system. The key features are listed below, and these features are done on the server side to increase security. AJAX is used to communicate with the database. This project is also mobile friendly.
+This project focuses more on the back-end side and less on the front-end side of the web developement. The key features of this project are listed below, and these features are done on the server side to increase security. AJAX is used to communicate with the database. This project is also mobile friendly.
 
 Key Features:
 * Credentials checking 
@@ -43,6 +45,25 @@ HTML / CSS (Bootstrap 5) / JS (JQuery)
 
 Description: 
 This project focuses more on the layout or the appearance of the website. This is achieve by using Bootstrap 5. Fixed some minor issue on Bootstrap 5 using JQuery. This project is also mobile friendly.
+
+
+## To-do List
+Please see [To-do List](https://ren-a-ps.github.io/webdev_personal/todo_list/)
+
+Skills:
+HTML / CSS / JS
+
+Description:
+This project focuses more on javascript's DOM manipulation and ES6 features. The key features of this project are listed below. This project is not mobile friendly. 
+
+Key Features:
+* Add task to your to-do list.
+* Edit tasks in your to-do list.
+* Remove tasks in your to-do list.
+* Mark tasks as completed.
+* Filter tasks if 'Done', 'On-going', or 'All'
+* Tasks will not disappear even when the browser is refreshed. 
+
 
 ## Socials
 
