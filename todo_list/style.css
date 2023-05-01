@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: skyblue;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    min-height: 100vh;
+}
+
+header{
+    font-size: 1.5rem;  /*root em or rem is relative to the document's root element (root font size * rem). Standard root font-size of browser is 16px*/
+}
+
+header, 
+form{
+    min-height: 20vh;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form input, 
+form button{
+    padding: 0.5rem;
+    font-size: 2rem;
+    border: none;
+    background: white;
+}
+
+form button{
+    color: #0096fe;
+    /* background: white; */
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+form button:hover{
+    background:  #0096fe;
+    color: white;
+}
+
+.todo-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.todo-list{
+    min-width: 30%;
+    list-style: none;
+}
+
+.todo{
+    margin: 0.5rem;
+    background: white;
+    color: black;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: all 0.5s ease;
+}
+
+.todo li{
+    flex: 1;
+}
+
+.complete-btn,
+.edit-btn,
+.minus-btn{
+    color: white;
+    background: #EB8787;
+    border: none;
+    padding: 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.complete-btn{
+    background: #87EBCE;
+}
+
+.edit-btn{
+    background: #FFA07A;
+}
+
+.complete-btn:hover{
+    background: #007F7F;
+}
+
+.minus-btn:hover{
+    background: #B30000;
+}
+
+.edit-btn:hover{
+    background: #E97451;
+}
+
+.todo-item{
+    padding: 0rem 0.5rem;
+}
+
+.fa-check, /* This will disable all mouse events on the div element and its children */
+.fa-minus,
+.fa-pen{
+    pointer-events: none;
+}
+
+.completed{
+    text-decoration: line-through;
+    opacity: 0.5;
+}
+
+.fall{
+   transform: translateY(8rem) rotateZ(20deg); 
+   opacity: 0;
+}
+
+/* There are certain limitations in styling select element, because it's appearance is mainly controlled by the web browser */
+/* By setting below properties to none, we are effectively removing the default appearance of the element and allowing us to apply our own custom styles. */
+select{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    outline: none;
+    border: none;
+}
+
+.select{
+    margin: 1rem;
+    position: relative;
+    overflow: hidden;
+}
+
+select{
+    color: #0096fe;
+    width: 10rem;
+    cursor: pointer;
+    padding: 1.2rem;
+}
+
+.select::after{
+    content: "\25BC";
+    position: absolute;
+    background: #0096fe;
+    top: 0;
+    right: 0;
+    padding: 1.2rem;
+    pointer-events: none;
+}
+
+.select:hover::after{
+    background: white;
+    color: #0096fe;
+}
