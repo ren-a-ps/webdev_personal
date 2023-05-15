@@ -1,5 +1,5 @@
 //Selectors
-const api_key = '96b9793e2f1cbc2de4c832804f8a9ab2';
+const api_key = '';
 const search_btn = document.querySelector(".search_btn");
 const input_city = document.querySelector(".input_city");
 const temp = document.querySelector(".temp");
@@ -15,9 +15,9 @@ const displayWeather = (data, event) => {
     const weather_desc =data.weather[0].description;
 
     if (weather === 'Fog' || weather === 'Haze' || weather === 'Mist') {
-        weather_icon.src = `/images/fog.png`;
+        weather_icon.src = `images\fog.png`;
     } else {
-        weather_icon.src = `/images/${weather.toLowerCase()}.png`;
+        weather_icon.src = `images\${weather.toLowerCase()}.png`;
     }
 
     temp.innerText = `${Math.round(data.main.temp)}°c`;
@@ -28,7 +28,7 @@ const displayWeather = (data, event) => {
 };
 
 const displayError = (response) => {
-    weather_icon.src = `/images/clear.png`;
+    weather_icon.src = `images\clear.png`;
     temp.innerText = "...";
     city.innerText = response.statusText;
     humidity.innerText = "...";
