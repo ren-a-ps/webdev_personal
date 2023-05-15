@@ -1,5 +1,4 @@
 //Selectors
-const api_key = '';
 const search_btn = document.querySelector(".search_btn");
 const input_city = document.querySelector(".input_city");
 const temp = document.querySelector(".temp");
@@ -15,9 +14,9 @@ const displayWeather = (data, event) => {
     const weather_desc =data.weather[0].description;
 
     if (weather === 'Fog' || weather === 'Haze' || weather === 'Mist') {
-        weather_icon.src = `images\fog.png`;
+        weather_icon.src = `images/fog.png`;
     } else {
-        weather_icon.src = `images\${weather.toLowerCase()}.png`;
+        weather_icon.src = `images/${weather.toLowerCase()}.png`;
     }
 
     temp.innerText = `${Math.round(data.main.temp)}°c`;
@@ -28,7 +27,7 @@ const displayWeather = (data, event) => {
 };
 
 const displayError = (response) => {
-    weather_icon.src = `images\clear.png`;
+    weather_icon.src = `images/clear.png`;
     temp.innerText = "...";
     city.innerText = response.statusText;
     humidity.innerText = "...";
@@ -37,11 +36,11 @@ const displayError = (response) => {
 };
 
 const fetchWeather = async (city) => {
-    const url = `https://api.openweathermap.org/data/2.5/weather?units=metric&q=${city}&appid=${api_key}`
-    const response = await fetch(url);
-    const data = await response.json();
+    let url = `/.netlify/functions/getWeather?city=${city}`;
     try {
-        if (response.ok) {
+        const response = await fetch(url);
+        const data = await response.json();
+        if (response.status === 200) {
             displayWeather(data);
         } else {
             console.error(`Fetch Try Error: ${response.statusText}`);
@@ -61,7 +60,6 @@ search_btn.addEventListener("click", () => {
         input_city.value = '';
     }
 });
-
 
 
 input_city.addEventListener("keypress", (e) => {
