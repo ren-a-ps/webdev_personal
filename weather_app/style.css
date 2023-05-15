@@ -8,7 +8,6 @@
 body{
     background: #222;
     height: 100vh;
-    /* display flex is not included in the tutorial */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -19,7 +18,7 @@ body{
     max-width: 470px;
     background: linear-gradient(135deg, #00feba, #5b548a);
     color: #fff;
-    margin: 100px 0; /*100px auto 0*/
+    margin: 100px 0;
     border-radius: 20px;
     padding: 40px 35px;
     text-align: center;
