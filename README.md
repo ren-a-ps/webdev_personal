@@ -50,7 +50,7 @@ This project focuses on the layout or the appearance of the website. This is ach
 
 
 ## To-do List
-Please see [Weather App](https://keen-semolina-da1764.netlify.app/)
+Please see [To-do List](https://ren-a-ps.github.io/webdev_personal/todo_list/)
 
 Skills:
 HTML / CSS / JS / API
@@ -68,7 +68,7 @@ Key Features:
 
 
 ## Weather App
-Please see [To-do List](https://ren-a-ps.github.io/webdev_personal/todo_list/)
+Please see [Weather App](https://keen-semolina-da1764.netlify.app/)
 
 Skills:
 HTML / CSS / JS
