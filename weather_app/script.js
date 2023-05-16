@@ -63,7 +63,7 @@ search_btn.addEventListener("click", () => {
 
 
 input_city.addEventListener("keypress", (e) => {
-    if (e.key === 'Enter') {
+    if (e.key === 'Enter' && input_city.value != "") {
         fetchWeather(input_city.value);
         input_city.value = ''; 
     }
