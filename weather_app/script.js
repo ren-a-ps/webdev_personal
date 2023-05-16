@@ -26,10 +26,10 @@ const displayWeather = (data, event) => {
     description.innerText = `${weather_desc.charAt(0).toUpperCase()}${weather_desc.slice(1)}`;
 };
 
-const displayError = (response) => {
+const displayError = () => {
     weather_icon.src = `images/clear.png`;
     temp.innerText = "...";
-    city.innerText = response.statusText;
+    city.innerText = `Fetch Error`;
     humidity.innerText = "...";
     wind.innerText = "...";
     description.innerText = "...";
@@ -39,12 +39,13 @@ const fetchWeather = async (city) => {
     let url = `/.netlify/functions/getWeather?city=${city}`;
     try {
         const response = await fetch(url);
+        console.log(response);
         const data = await response.json();
         if (response.status === 200) {
             displayWeather(data);
         } else {
             console.error(`Fetch Try Error: ${response.statusText}`);
-            displayError(response);
+            displayError();
         }
     } catch (error) {
         console.error(`Fetch Catch Error: ${error}`);
