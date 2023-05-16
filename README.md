@@ -15,6 +15,8 @@ This is my repository for web development. My most recent web development projec
 
 * [To-do List](https://ren-a-ps.github.io/webdev_personal/todo_list/)
 
+* [Weather App](https://keen-semolina-da1764.netlify.app/)
+
 
 ## Login System
 Please see [Login System](https://renaps-ls.000webhostapp.com/index.php).
@@ -44,17 +46,17 @@ Skills:
 HTML / CSS (Bootstrap 5) / JS (JQuery) 
 
 Description: 
-This project focuses more on the layout or the appearance of the website. This is achieve by using Bootstrap 5. Fixed some minor issue on Bootstrap 5 using JQuery. This project is also mobile friendly.
+This project focuses on the layout or the appearance of the website. This is achieve by using Bootstrap 5. Fixed some minor issue on Bootstrap 5 using JQuery. This project is also mobile friendly.
 
 
 ## To-do List
-Please see [To-do List](https://ren-a-ps.github.io/webdev_personal/todo_list/)
+Please see [Weather App](https://keen-semolina-da1764.netlify.app/)
 
 Skills:
-HTML / CSS / JS
+HTML / CSS / JS / API
 
 Description:
-This project focuses more on javascript's DOM manipulation and ES6 features. The key features of this project are listed below. This project is not mobile friendly. 
+This project focuses on javascript's DOM manipulation and ES6 features. The key features of this project are listed below. A possible improvement for this project is to make it suitable for mobile devices.
 
 Key Features:
 * Add task to your to-do list.
@@ -63,6 +65,16 @@ Key Features:
 * Mark tasks as completed.
 * Filter tasks if 'Done', 'On-going', or 'All'
 * Tasks will not disappear even when the browser is refreshed. 
+
+
+## Weather App
+Please see [To-do List](https://ren-a-ps.github.io/webdev_personal/todo_list/)
+
+Skills:
+HTML / CSS / JS
+
+Description:
+This project focuses on how to access and manipulate the requested data from the weather API. Displaying the weather data uses javascript's DOM manipulation and ES6 features. A possible improvement for this project is to make it suitable for mobile devices.
 
 
 ## Socials
